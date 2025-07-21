@@ -1,12 +1,57 @@
-# React + Vite
+# 🔐 OTP Verification System using EmailJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive OTP (One-Time Password) verification app built with **HTML**, **CSS**, and **JavaScript**, and powered by **EmailJS** for sending OTPs via email.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [View Live App](https://your-deployment-url.com)  
+_(Replace with your actual deployed URL — GitHub Pages, Vercel, Netlify, etc.)_
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 How to Clone and Run the Project
+
+### 🧾 Prerequisites
+- A modern web browser (Chrome, Firefox, Edge, etc.)
+- Internet connection (EmailJS requires internet to send OTP)
+
+### 🛠️ Steps
+
+**Clone the Repository**
+
+     ```bash
+       git clone https://github.com/your-username/otp-verification-app.git
+
+📧 EmailJS Setup
+Go to https://www.emailjs.com and sign up.
+
+Create an Email Service (e.g., Gmail).
+
+Set up a new Email Template with variables like from_name, to_email, and otp.
+
+Get your Public Key, Service ID, and Template ID from your dashboard.
+
+✨ Sample Usage in script.js:
+js
+Copy
+Edit
+emailjs.init("YOUR_PUBLIC_KEY");
+
+emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+  from_name: "OTP System",
+  to_email: userEmail,
+  otp: generatedOTP,
+});
+🔐 Never expose your real keys in public apps. Use secure storage in production.
+
+✨ Features
+Responsive UI
+
+EmailJS-powered OTP delivery
+
+Form validation and OTP check
+
+Custom success/error messages
+
