@@ -6,8 +6,7 @@ A simple and responsive OTP (One-Time Password) verification app built with **HT
 
 ## 🚀 Live Demo
 
-🌐 [View Live App](https://your-deployment-url.com)  
-_(Replace with your actual deployed URL — GitHub Pages, Vercel, Netlify, etc.)_
+🌐 [View Live App](https://verifyurotp.netlify.app/)  
 
 ---
 
