@@ -20,7 +20,7 @@ A simple and responsive OTP (One-Time Password) verification app built with **HT
 
 ### Clone the Repository**
 
-         git clone https://github.com/your-username/otp-verification-app.git
+    git clone https://github.com/your-username/otp-verification-app.git
  
 
 ### EmailJS Setup
