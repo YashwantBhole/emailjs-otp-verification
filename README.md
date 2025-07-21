@@ -18,12 +18,12 @@ A simple and responsive OTP (One-Time Password) verification app built with **HT
 
 ### 🛠️ Steps
 
- 
-**Clone the Repository**
-  ```bash
-     git clone https://github.com/your-username/otp-verification-app.git
+### Clone the Repository**
 
-📧 EmailJS Setup
+         git clone https://github.com/your-username/otp-verification-app.git
+ 
+
+### EmailJS Setup
 Go to https://www.emailjs.com and sign up.
 
 Create an Email Service (e.g., Gmail).
